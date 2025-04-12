@@ -8,9 +8,7 @@ body{
 
 .darkMode{
     background-color: #3b463dff;
-    color: #ffffff;
-    
-
+    color: aliceblue    ;
 }
 
 #darkToggle{
@@ -19,11 +17,12 @@ body{
     width: 65px;
     margin-top: 10px;
     padding: 8px;
+    margin-top: 30px;
     background-color: rgb(101, 95, 162);
     color: #f0f0f0;
     cursor: pointer;
     border-radius: 300px;
-    /* transition: background-color 0.3s ease; */
+    transition: background-colo r 0.3s ease;
     border: 2.5px solid rgb(68, 59, 59);
     float: right;
 
@@ -46,7 +45,6 @@ body{
 
 .title{
     color: #e9e39c;
-    display: inline-block;
     float: left;
     display: flex;
     /* border: #181818 1px solid; */
@@ -59,7 +57,8 @@ body{
     float: right;
     list-style-type: none;
     font-size: larger;
-    justify-content: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+
     
 }
 .nav a:hover{   
@@ -72,11 +71,15 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: larger;
-    /* float: right; */
+    float: right;
     display: flex;
-    justify-content: space-around   ;
+    justify-content: space-between   ;
     /* border: #9a2727 1px solid; */
-    padding: 20px;
+    /* padding: 20px; */
+    padding-top: 40px;
+    padding-left: 80px;
+    width: 30%;
+    padding-bottom: 60px;
     
 }
 
@@ -95,14 +98,35 @@ body{
 }
 
 .content{
-    border: 1px solid black;
-    width: 10px;
-    height: 20px;
     background-color: white;
-    padding: 15%;
+    width:400px;
+    height: 400px;
 }
 
 .highlight{
     display: flex;
     justify-content: space-around;
 }
+
+.hImg{
+    position: relative;
+    left: 45px;
+    top: 50px;
+    height: 200px;
+    width: 300px;
+}
+
+.p{
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    color: #595959;
+
+}
+
+.hourDiv{
+    margin: auto;
+    text-align: center;
+}
+
