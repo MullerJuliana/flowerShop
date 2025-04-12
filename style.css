@@ -23,6 +23,8 @@ body{
     border-radius: 300px;
     /* transition: background-color 0.3s ease; */
     border: 3px solid rgb(0, 0, 0);
+    float: right;
+
 } 
 
 #darkToggle:hover{
@@ -41,6 +43,9 @@ body{
     color: #e9e39c;
     display: inline-block;
     float: left;
+    display: flex;
+    border: #181818 1px solid;
+    font-family: "Playwrite IN", cursive;
 }
 
 .navItems{
@@ -50,6 +55,7 @@ body{
     list-style-type: none;
     font-size: larger;
     justify-content: space-around;
+    
 }
 .nav a:hover{   
     background-color: #e15c64ff;
@@ -57,11 +63,21 @@ body{
     transition: background-color 0.3s;
 }
 .page{
-    
     color: rgb(255, 255, 255);
     font-size: larger;
+    float: right;
+    display: flex;
+    /* border: #181818 1px solid; */
+    padding: 20px;
 }
 
 .mainImg{
     width: 100%;
+}
+.aboutUs{
+    padding: 70px;
+}
+.subHeader{
+    font-family: "Playwrite IN", cursive;
+    color: #3b463d;
 }
